@@ -1,0 +1,4 @@
+baseURL = 'https://talesoftheemeralddram.com/'
+languageCode = 'en-us'
+title = 'Tales of the Emerald Dram'
+theme = 'ananke'

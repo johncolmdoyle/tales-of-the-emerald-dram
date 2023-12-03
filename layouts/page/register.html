@@ -1,0 +1,27 @@
+{{ define "main" }}
+<div class="w-60 center">
+  {{ .Content }}
+
+  <div class="flex">
+    <div class="w-1/2">
+      <!-- Content for the left div -->
+      <img src="whiskey-glass.png" width="300"/>
+    </div>
+    
+    <div class="w-1/2">
+      <form accept-charset="UTF-8" action="https://www.formbackend.com/f/9ccb15c576a73171" method="POST">
+        <div class="mt2 text-green-500">
+          <label for="email" class="db mb1 text-green-500" style="color:green">Email</label>
+          <input type="text" id="email" name="email" required>
+        </div>
+    
+        <div class="mt2">
+        </div>
+    
+        <button type="submit">Register for News</button>
+      </form>
+    </div>
+  </div>
+
+</div>
+{{ end }}
