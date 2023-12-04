@@ -1,24 +1,25 @@
 {{ define "main" }}
 <div class="w-60 center">
-  {{ .Content }}
-
   <div class="flex">
     <div class="w-1/2">
       <!-- Content for the left div -->
-      <img src="whiskey-glass.png" width="300"/>
+      <img src="whiskey-glass.png" width="400"/>
     </div>
     
-    <div class="w-1/2">
-      <form accept-charset="UTF-8" action="https://www.formbackend.com/f/9ccb15c576a73171" method="POST">
-        <div class="mt2 text-green-500">
-          <label for="email" class="db mb1 text-green-500" style="color:green">Email</label>
-          <input type="text" id="email" name="email" required>
+    <div class="w-1/2 ">
+      <div class="avenir bg-black light-gray">
+        <p>Exciting news is on the horizon, and we want you to be part of the journey! Our much-anticipated book is set to launch soon, and we'd love to keep you informed every step of the way.</p>
+      </div>
+      <form class="measure center" accept-charset="UTF-8" action="https://www.formbackend.com/f/9ccb15c576a73171" method="POST">
+        <fieldset id="sign_up" class="ba b--transparent ph0 mh0">
+          <div class="mv3">
+            <label class="db fw6 lh-copy f6 white-50" for="email">Email</label>
+            <input class="b pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="text" name="email"  id="email">
+          </div>
+        </fieldset>
+        <div class="">
+          <input class="b ph3 pv2 input-reset ba w-100 white b--white bg-transparent grow pointer f6 dib" type="submit" value="Subscribe">
         </div>
-    
-        <div class="mt2">
-        </div>
-    
-        <button type="submit">Register for News</button>
       </form>
     </div>
   </div>
